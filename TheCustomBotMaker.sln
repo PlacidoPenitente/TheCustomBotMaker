@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot.Common", "Bot.Common\Bot.Common.csproj", "{A95F25E9-5A11-4679-BEBA-25BC82EA76D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot.Lab", "Bot.Lab\Bot.Lab.csproj", "{7A2FCFB4-2ACF-4B33-A2C7-3070AEA77F7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot.BotConsole", "Bot.BotConsole\Bot.BotConsole.csproj", "{628C3B60-7E15-40A6-8959-7E16A1623E4A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A95F25E9-5A11-4679-BEBA-25BC82EA76D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A95F25E9-5A11-4679-BEBA-25BC82EA76D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A95F25E9-5A11-4679-BEBA-25BC82EA76D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A95F25E9-5A11-4679-BEBA-25BC82EA76D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A2FCFB4-2ACF-4B33-A2C7-3070AEA77F7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A2FCFB4-2ACF-4B33-A2C7-3070AEA77F7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A2FCFB4-2ACF-4B33-A2C7-3070AEA77F7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A2FCFB4-2ACF-4B33-A2C7-3070AEA77F7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{628C3B60-7E15-40A6-8959-7E16A1623E4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{628C3B60-7E15-40A6-8959-7E16A1623E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{628C3B60-7E15-40A6-8959-7E16A1623E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{628C3B60-7E15-40A6-8959-7E16A1623E4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
